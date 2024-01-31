@@ -44,6 +44,12 @@ const plugins = [
     },
   },
   {
+    resolve: 'medusa-plugin-category-images',
+    options: {
+      enableUI: true,
+    },
+  },
+  {
     resolve: "@medusajs/admin",
     /** @type {import('@medusajs/admin').PluginOptions} */
     options: {
