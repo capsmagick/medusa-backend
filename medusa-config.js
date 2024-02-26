@@ -66,6 +66,12 @@ const plugins = [
     },
   },
   {
+    resolve: 'medusa-plugin-variant-images',
+    options: {
+      enableUI: true,
+    },
+  },
+  {
     resolve: "@medusajs/admin",
     /** @type {import('@medusajs/admin').PluginOptions} */
     options: {
