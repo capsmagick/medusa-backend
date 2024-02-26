@@ -98,6 +98,21 @@ const plugins = [
     },
   },
   {
+    resolve:`medusa-payment-phonepe`,
+  
+
+   options: {
+                redirectUrl: "http://localhost:8000/api/payment-confirmed",
+                callbackUrl: "http://localhost:9000/phonepe/hook",
+                salt: process.env.PHONEPE_SALT,
+                merchantId:
+                    process.env.PHONEPE_MERCHANT_ACCOUNT,
+                mode: process.env.PHONEPE_MODE,
+                redirectMode: "POST"
+            }
+  
+  },
+  {
     resolve: 'medusa-plugin-variant-images',
     options: {
       enableUI: true,
