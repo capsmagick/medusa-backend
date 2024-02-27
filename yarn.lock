@@ -2740,9 +2740,9 @@
   dependencies:
     "@lukeed/csprng" "^1.1.0"
 
-"@medusajs/admin-ui@^2.1.10":
+"@medusajs/admin-ui@^2.1.12":
   version "2.1.12"
-  resolved "https://registry.npmjs.org/@medusajs/admin-ui/-/admin-ui-2.1.12.tgz"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin-ui/-/admin-ui-2.1.12.tgz#0b3886a7bb13cef069d7daf1f930051f42ece481"
   integrity sha512-IFZeXgvFp0fbkf/XD6+ji3tpUH8uhzE+KOwqCfYx5Is7yGWSNYS+BDLVv9R2W9/CyxNV7oRhJ0ee/fn4nJIJiA==
   dependencies:
     "@babel/parser" "7.22.5"
@@ -2828,12 +2828,12 @@
     webpackbar "^5.0.2"
     zod "^3.22.2"
 
-"@medusajs/admin@7.1.9":
-  version "7.1.9"
-  resolved "https://registry.npmjs.org/@medusajs/admin/-/admin-7.1.9.tgz"
-  integrity sha512-JhWAMoGBEw1SJ2QY2d6cdQTWmTe4K5/4hlzBAMGBci0vInTFAZfnPuG/A3b8KH9koY4QWxpQEOmZFzVF5XVXCA==
+"@medusajs/admin@7.1.11":
+  version "7.1.11"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin/-/admin-7.1.11.tgz#7f1013b08332391f4a7ade5257ee889c7fab3de8"
+  integrity sha512-00x9BMeZMmQyRZ/X8ZYB/SwObVfkMQtrWqPJH/Kl4kvWhnCIfeSF51P2ZA5nNv7V7DmAOEngWVytKgNhPwF6bA==
   dependencies:
-    "@medusajs/admin-ui" "^2.1.10"
+    "@medusajs/admin-ui" "^2.1.12"
     "@rollup/plugin-alias" "5.0.0"
     "@rollup/plugin-commonjs" "24.1.0"
     "@rollup/plugin-json" "6.0.0"
@@ -2846,7 +2846,7 @@
     express "4.18.2"
     fs-extra "11.1.0"
     lodash "^4.17.21"
-    medusa-core-utils "1.2.0"
+    medusa-core-utils "1.2.1"
     rollup "3.20.7"
     rollup-plugin-esbuild "5.0.0"
     ts-dedent "^2.2.0"
@@ -10701,12 +10701,7 @@ media-typer@0.3.0:
   resolved "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
-medusa-core-utils@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/medusa-core-utils/-/medusa-core-utils-1.2.0.tgz"
-  integrity sha512-9mzXGkMsll92C46Ub8A9vwjcfFiHfdkgshwmPP9QpRrm02M6N+SQb45S2A9t0dKjyT9J7rgCCSrFhYQg3pvqbw==
-
-medusa-core-utils@^1.1.41, medusa-core-utils@^1.2.0, medusa-core-utils@^1.2.1:
+medusa-core-utils@1.2.1, medusa-core-utils@^1.1.41, medusa-core-utils@^1.2.0, medusa-core-utils@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/medusa-core-utils/-/medusa-core-utils-1.2.1.tgz"
   integrity sha512-PBAm+5ODVcS9HREz7SH9LtiDY6/Fkwax+tqB5cTjujOiWSPuuj13ImH8eb9p6aVoOEvFtpDP4HL8TIijpJ6juw==
